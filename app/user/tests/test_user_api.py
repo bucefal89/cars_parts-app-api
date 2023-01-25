@@ -64,4 +64,3 @@ class PublicUserTests(TestCase):
             email=payload['email']
         ).exists()
         self.assertFalse(user_exists)
-
